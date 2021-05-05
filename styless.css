@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #2e2e31;
+    width: 100vw;
+}
+
+/*Header*/
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    box-shadow: 2px 7px 5px 0px rgba(177,113,102,0.33);
+}
+
+.MenuNavegacion{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #2e2e31;
+}
+
+.acontacto{
+    text-decoration: none;
+    color: white;
+}
+
+u{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 25px;
+    font-size: 20px;
+    height: 50px;
+}
+
+.nav-contacto{
+    background-color: #B17166;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 100px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 5px 0px rgba(177,113,102,0.33);
+
+}
+
+.nav-contacto:hover{
+    color: white;
+}
+
+/*fin del header*/
+
+/*INICIO PRESENTACIÓN*/
+
+main{
+    width: 100%;
+}
+
+.presentacion{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 40px 130px 40px;
+}
+
+.column-info{
+    width: 50%;
+    max-width: 500px;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}
+
+.info-img{
+    width: 600px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nombre{
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #B17166;
+}
+
+.saludo{
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 0;
+    margin-left: 0px;
+}
+
+.parrafo{
+    padding: 10px 0px 20px 0px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    color: #2e2e31;
+}
+
+p{
+    line-height: 1.4;
+}
+
+.boton{
+    background-color: #B17166;
+    color: white;
+    margin-bottom: 50px;
+    padding: 15px 40px 15px 40px;
+    border-radius: 100px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 5px 0px rgba(177,113,102,0.33);
+
+}
+
+/*PRESENTACIÓN*/
+
+/*MIS CONOCIMIENTOS*/
+
+.subtitulo{
+    text-align: center;
+    justify-content: center;
+    font-weight: 900;
+    color: #B17166;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.parrafo2{
+    text-align: center;
+    max-width: 400px;
+    margin-bottom: 50px;
+    color: #2e2e31;
+}
+
+.Content-conocimientos{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 40px 130px 40px;
+    background-color: whitesmoke;
+}
+
+.flex-card{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+.card{
+width: 260px;
+height: 230px;
+border: 1px solid #dddfe5;
+border-radius: 8px;
+margin: 10px 10px 10px 10px;
+padding: 30px 30px 30px 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+cursor:pointer;
+background-color:white;
+}
+.card:hover{
+    border: 1px solid #B17166;
+    color:#B17166;
+}
+
+.html{
+    font-size: 7em;
+    color: #E44D26;
+    padding: 5%;
+}
+
+.css3{
+    font-size: 7em;
+    color: #264de4;
+    padding: 5%;
+}
+
+.sass{
+    font-size: 7em;
+    color: #dddfe5;
+    padding: 5%;
+}
+
+.java{
+    font-size: 7em;
+    color: #dddfe5;
+    padding: 5%;
+}
+
+.react{
+    font-size: 7em;
+    color: #dddfe5;
+    padding: 5%;
+}
+
+.git{
+    font-size: 7em;
+    color: #F1502F;
+    padding: 5%;
+}
+
+.img-card1{
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 90px;
+    height: 90px;
+}
+
+.img-card2{
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 90px;
+    height: 90px;
+}
+.nom-imagenes{
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+
+/* inicio cita */
+
+.Content-cita{
+    background-color: #B17166;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px 40px 130px;
+    text-align: center;
+}
+
+.flex-cita{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-img{
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+.bloque{
+    display: block;
+}
+
+.p-cita{
+    font-size:1.1rem;
+    line-height: 1.4;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.bloque-texto{
+    font-size: 1.70em;
+    color: white;
+    margin-bottom: 0;
+    display: block;
+}
+
+/*MIS PROYECTOS*/
+
+.Content-proyectos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+    padding: 10%;
+}
+
+.subtitulo2{
+    text-align: center;
+    justify-content: center;
+    font-weight: 900;
+    color: #B17166;
+    margin: 5px 50px 25px 50px;
+    font-size: 40px;
+}
+
+.just-text2{
+    justify-content: center;
+    text-align: center;
+    max-width: 400px;
+    margin: 50px 50px 50px 50px;
+    color: #2e2e31;
+}
+
+.ilustraciones{
+    width: 340px;
+    height: 350px;
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor:pointer;
+    padding: 30px 30px 30px 30px;
+}
+
+.ilustraciones:hover{
+    border: 1px solid #B17166;
+    color:#B17166;
+}
+
+.sub-il{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.il-img{
+    padding: 3%;
+}
+
+.il-img2{
+    padding: 3%;
+}
+
+.nom-ilustracion{
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+/*formulario */
+
+
+.contacto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 110px 40px 130px 40px;
+    background-color: whitesmoke;
+}
+
+.card-form{
+    background-color:white;
+    border: 1px solid #dddfe5;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1100px;
+    padding: 80px 60px 80px 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contactame{
+    background-color:white;
+    border-radius: 15px;
+    width:50%;
+    padding-right: 10px;
+    text-align: left;
+    display: block;
+}
+
+.sub-form{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.parrafo-form{
+    max-width: 400px;
+    line-height: 1.4;
+}
+
+.link-form{
+    display: block;
+    margin:50px 10px 60px 20px;
+}
+
+.iconos-form{
+    width: 50%;
+}
+
+.iconform{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: #B17166;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+    flex-direction: row;
+}
+
+.iconform:hover{
+    background-color:#B17166;
+    color: white;
+    border: 1px solid white;
+}
+
+.escribeme{
+    background-color:white;
+    border-radius: 15px;
+    width:50%;
+    padding-right: 10px;
+    text-align: left;
+    display: block;
+}
+
+.botonform{
+    background-color: #B17166;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px 15px 40px;
+    margin-top: 20px;
+    border-radius: 100px;
+    border-bottom-style: none;
+}
+
+input, textarea{
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border: 1px solid #dddfe5;
+    display: block;
+    width: 100%;
+    outline: none;
+    padding: 10px 15px 10px 15px;
+}
+
+.p-form{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.registro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nombreformulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0px 5px 0px 5px;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px 60px;
+    background-color: #B17166;
+    color: white;
+}
+
+.navFooter{
+color: white;
+}
+
+.nav-foo{
+    display: flex;
+
+}
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 25px;
+    font-size: 15px;
+    color: white;
+    height: 50px;
+}
+
+.iconos-pr{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.iconos-final{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background-color: white;
+    color: #B17166;
+    border-radius: 50%;
+    border: 1px solid white;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.iconos-final:hover{
+    background-color:#B17166;
+    color: white;
+    border: 1px solid white;
+}
+
+.icon:hover{
+    background-color:#B17166;
+    color: white;
+}
+
+.icon{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.icon-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
